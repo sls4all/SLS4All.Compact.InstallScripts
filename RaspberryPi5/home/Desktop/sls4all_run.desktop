@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Name=Start SLS4All
+Exec=/bin/sh -c "~/sls4all_run.sh -s"
+Icon=
+Comment=
+Path=
+StartupNotify=false

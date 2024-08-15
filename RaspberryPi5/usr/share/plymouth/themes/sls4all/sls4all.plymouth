@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=SLS4All
+Description=SLS4All
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/sls4all
+ScriptFile=/usr/share/plymouth/themes/sls4all/sls4all.script
