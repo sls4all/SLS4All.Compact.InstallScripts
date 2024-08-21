@@ -66,7 +66,7 @@ esac
 
 if [ -z "$MEMBER_ID" ]; then
     echo
-    echo "*** Please provide a Member Id. It can be freely obtained by registering at https://sls4all.com. We use the Member Ids to track how many SLS4All printers are in the world. It is the only thing we ask of you for using our software. No other data is being collected."
+    echo "*** Please provide a Member Id. It can be freely obtained by registering at https://sls4all.com/my-account/member-id/. We use the Member Ids to track how many SLS4All printers are in the world. It is the only thing we ask of you for using our software. No other data is being collected."
     echo
     read -p "Enter Member Id: " MEMBER_ID
     if [ -z "$MEMBER_ID" ]; then

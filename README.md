@@ -43,7 +43,7 @@ If you have a clean SD card, the recommended installation procedure is as follow
     - In the Services tab:
       - Enable SSH and select either "Password authentication" which is the simplest or "Allow public-key authentication only" if you have used that before.
 - Insert the newly created SD card to Raspberry PI and power it up
-- Register or login to [SLS4All website](https://sls4all.com) and copy or generate Member Id from your profile
+- Register or login to [SLS4All website](https://sls4all.com/my-account/member-id/) and copy or generate Member Id from your profile
   - Please note that we use the Member Ids to track how many SLS4All printers are in the world. It is the only thing we ask of you for using our software. No other data is being collected.
 - Either connect a display and keyboard or access the device via SSH and network
 - Connect the Raspberry PI to internet using Ethernet or Wi-Fi
