@@ -47,6 +47,10 @@ If you have a clean SD card, the recommended installation procedure is as follow
   - Please note that we use the Member Ids to track how many SLS4All printers are in the world. It is the only thing we ask of you for using our software. No other data is being collected.
 - Either connect a display and keyboard or access the device via SSH and network
 - Connect the Raspberry PI to internet using Ethernet or Wi-Fi
+- Start `sudo raspi-config` in terminal
+  - Enable i2c interface (for thermal camera) in **Interface Options**/**I2C**
+  - Consider enabling VNC (for remote access to desktop) in **Interface Options**/**VNC**
+  - Consider adjusting system locale settings in **Localisation Options** according to your preferences. This typically means changing **Locale**, **Time Zone**, **Keyboard Layout**, and **Wi-Fi Country**.
 - The following commands will install all necessary system packages, latest stable version of SLS4All Compact Printer Application and do the neccessary configuration
 - Enter following in a Raspnerry PI Terminal to start the installation. Enter Member Id from the step above when requested.
 
