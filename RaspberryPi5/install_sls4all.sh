@@ -101,6 +101,7 @@ sudo_grep_tee /etc/security/limits.conf "$USER    hard rtprio   99"
 sudo_grep_tee /etc/security/limits.conf "$USER    soft rtprio   99"
 sudo_grep_tee /etc/security/limits.conf "$USER    hard nice     -20"
 sudo_grep_tee /etc/security/limits.conf "$USER    soft nice     -20"
+sudo_grep_tee /etc/security/limits.conf "$USER    -    memlock  4294967296"
 
 # copy scripts and files
 sudo cp -rf usr/. /usr
